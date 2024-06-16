@@ -1,23 +1,6 @@
 # Server-Client
 This project implements client and server applications for a simple file transfer system that allows clients to request a list of text files contained on the server and to upload new files to the server. The system is somewhat similar to a basic FTP application but is restricted to text files and file upload only.
 
-## Project Structure
-cwk/
-│
-├── client/
-│ ├── Client.java
-│ └── lipsum2.txt
-│
-├── server/
-│ ├── Server.java
-│ ├── ClientHandler.java
-│ ├── log.txt
-│ └── serverFiles/
-│     ├── lipsum1.txt
-│     ├── abs.txt
-│     └── temp.txt
-
-
 ## Server Requirements
 
 - Run continuously.
@@ -36,18 +19,6 @@ cwk/
 - Handles errors gracefully, providing meaningful messages for invalid inputs or actions.
 
 ## Compilation and Execution
-
-### Server
-
-1. Navigate to the server directory and compile the server:
-   ```sh
-   cd cwk/server
-   javac Server.java
-   
-2. Launch the server:
-   ```sh
-    Copy code
-    java Server
 
 ### Server
 
