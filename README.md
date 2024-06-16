@@ -45,9 +45,9 @@ cwk/
    javac Server.java
    
 2. Launch the server:
-  sh
-  Copy code
-  java Server
+   ```sh
+    Copy code
+    java Server
 
 ### Server
 
@@ -57,20 +57,23 @@ cwk/
    javac Server.java
    
 2. Launch the server:
-  ```sh
-  java Server
+   ```sh
+   java Server
 
 ### Client
 
 1. In another terminal tab or shell, navigate to the client directory and compile the client:
-  cd cwk/client
-  javac Client.java
+   ```sh
+   cd cwk/client
+   javac Client.java
 
 2. Execute the client with the desired command:
 
   - To list files:
+    ```sh
     java Client list
   
   - To upload a file:
+    ```sh
     java Client put lipsum2.txt
 
